@@ -1,0 +1,42 @@
+/* 
+* @Author: Marte
+* @Date:   2017-02-17 15:18:38
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-02-17 15:44:32
+*/
+.container h1{
+    font-size: 30px;
+    font-weight: 700;
+    padding:20px 0;
+    
+}
+.container .row{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+}
+.container .row div{
+    padding:0 20px;
+    float:left;
+    position: relative;
+    font-size: 20px;
+    margin-right: 80px;
+    color:#ccc;
+
+}
+.container .row .active{
+    color:#000;
+}
+
+.container .row div span{
+    position: absolute;
+    right:4px;
+    top: -4px;
+    width: 18px;
+    height: 18px;
+    line-height: 15px;
+    text-align: center;
+    font-size: 10px;
+    color:#fff;
+    border: 1px solid #c8ebf8;
+    background:#199ed8;
+}

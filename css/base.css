@@ -1,0 +1,39 @@
+html,body,h1,h2,h3,h4,a,b,u,i{
+    font-size: 14px;
+    font-family: 'microsoft yahei';
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    color:#666;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.container{
+    width: 1200px;
+    position: relative;
+}
+.num_icon{
+    position: absolute;
+    right:-9px;
+    top: -9px;
+    width: 18px;
+    height: 18px;
+    line-height: 15px;
+    text-align: center;
+    font-size: 10px;
+    color:#fff;
+    border: 1px solid #c8ebf8;
+    background:#199ed8;
+}
+.manage_btn{
+    position: relative;
+    margin: 20px 60px 20px 0;
+    border: 1px solid #ccc;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background:transparent;
+}

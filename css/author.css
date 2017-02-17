@@ -1,0 +1,113 @@
+/* 
+* @Author: Marte
+* @Date:   2017-02-17 09:13:06
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-02-17 16:13:42
+*/
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { font-family: Microsoft YaHei,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
+html,body,h1,h2,h3,h4,a,b,u,i{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    color:#000;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.container{
+    width: 1200px;
+    position: relative;
+    padding:0 80px;
+}
+header{
+    height:80px;
+    overflow: hidden;
+    
+}
+header h1{
+    width:100%;
+    font-size: 30px;
+    height:80px;
+    line-height: 80px;
+    position: relative;
+}
+header h1 span{
+    position: absolute;
+    right:160px;
+    top:8px;
+    font-size: 16px;
+}
+header .row h3{
+    padding-top: 10px;
+    padding-left: 50px;
+    
+    
+}
+.wrapper h2{
+    margin:0 auto;
+    width:900px;
+    font-size: 20px;
+    background: #199ed8;
+    margin-bottom: 30px;
+    line-height: 36px;
+    color:#fff;
+    text-indent: 30px;
+}
+.wrapper p{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.wrapper textarea{
+    resize: none;
+    overflow-y: scroll;
+}
+.wrapper #inputFile{
+    width:505px;
+    height:34px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    line-height: 34px;
+}
+.wrapper .upload{
+    position: absolute;
+    width:50px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer;
+    padding: 0 10px;
+    height: 34px;
+    line-height: 34px;
+    width:80px;
+}
+.wrapper .btn_upload{
+    padding: 0 10px;
+    height: 34px;
+    line-height: 34px;
+    position: relative;
+    cursor: pointer;
+    color: #888;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+}
+.wrapper table{
+    border-collapse:collapse;
+    width:900px;
+    margin:0 auto;
+}
+
+.wrapper table td{
+    width:178px;
+    height:40px;
+    border:1px solid #ccc;
+    text-align: center;
+}

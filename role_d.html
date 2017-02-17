@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>role_d</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/author.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+        <header>
+              <h1 class="text-center">权限申请表<span>申请编号：</span></h1>
+        </header>
+        <div class="wrapper">
+            <h2>申请信息</h2>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="inputName" class="col-sm-3 control-label">申请人姓名：</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="inputName" placeholder="小李">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputType" class="col-sm-3 control-label">类型：</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="inputType" placeholder="个人平台级权限申请">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputDepart" class="col-sm-3 control-label">所属组织/部门：</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="inputDepart" placeholder="上海新飞凡有限公司/平台框架部">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputNum" class="col-sm-3 control-label">手机号：</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="inputNum" placeholder="18111111111">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputWanxin" class="col-sm-3 control-label">万信号：</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="inputWanxin" placeholder="zhangfei1">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputDate" class="col-sm-3 control-label">申请时间：</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="inputDate" placeholder="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputRole" class="col-sm-3 control-label">申请功能角色：</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="inputRole" placeholder="功能角色A">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="inputTime" class="col-sm-3 control-label">申请时效：</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="inputTime" placeholder="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputRef" class="col-sm-3 control-label">OA编号*：</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="inputRef" placeholder="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAttach" class="col-sm-3 control-label">OA审批附件：</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="inputAttach" placeholder=""><span class="num_icon">2</span>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="inputRole" class="col-sm-3 control-label">申请理由：</label>
+                    <div class="col-sm-6">
+                      <textarea class="form-control" rows="5" wrap="physical" placeholder="工作需要，提交申请，理由xxxx"></textarea>
+                    </div>
+                </div>
+                <h2>审批日志</h2>
+                <table border="1">
+                    <tr>
+                        <td>业务类型</td>
+                        <td>审批人</td>
+                        <td>审批时间</td>
+                        <td>审批结果</td>
+                        <td>备注</td>
+                    </tr>
+                    <tr>
+                        <td>个人平台级权限申请</td>
+                        <td>张三</td>
+                        <td>&nbsp</td>
+                        <td>未审批</td>
+                        <td>&nbsp</td>
+                    </tr>
+                </table>
+                <div class="btn_box text-center">
+                    <button class="manage_btn"> 关闭 <span class="num_icon">1</span></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
