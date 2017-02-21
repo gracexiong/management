@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>authority</title>
+    <title>role_a_look</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -41,9 +41,9 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-3 control-label">所属组织/部门：</label>
+                    <label for="inputDepart" class="col-sm-3 control-label">所属组织/部门：</label>
                     <div class="col-sm-6">
-                      <input type="text" class="form-control" id="inputEmail3" placeholder="上海新飞凡有限公司/平台框架部">
+                      <input type="text" class="form-control" id="inputDepart" placeholder="上海新飞凡有限公司/平台框架部">
                     </div>
                 </div>
                 <div class="form-group">
@@ -72,73 +72,31 @@
                 </div>
                 
                 <div class="form-group">
-                    <label for="" class="col-sm-3 control-label">申请时效*：</label>
-                    <div class="col-sm-2">
-                        <label class="radio-inline">
-                              <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 临时
-                        </label>
-                        <label class="radio-inline">
-                              <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 永久
-                        </label>
-                    </div>
-                    <div class="col-sm-2">
-                        <input type="text" class="form-control" id="inputRole" placeholder="">
-                    </div>
-                    <div class="col-sm-2">
-                        <input type="text" class="form-control" id="inputRole" placeholder="">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputRole" class="col-sm-3 control-label">申请功能角色：</label>
+                    <label for="inputTime" class="col-sm-3 control-label">申请时效：</label>
                     <div class="col-sm-6">
-                      <input type="text" class="form-control" id="inputRole" placeholder="功能角色A">
+                        <input type="text" class="form-control" id="inputTime" placeholder="">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="" class="col-sm-3 control-label">申请时效*：</label>
-                    <div class="col-sm-2">
-                        <label class="radio-inline">
-                              <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 临时
-                        </label>
-                        <label class="radio-inline">
-                              <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 永久
-                        </label>
-                    </div>
-                    <div class="col-sm-2">
-                        <input type="text" class="form-control" id="inputRole" placeholder="">
-                    </div>
-                    <div class="col-sm-2">
-                        <input type="text" class="form-control" id="inputRole" placeholder="">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputRole" class="col-sm-3 control-label">申请理由：</label>
+                    <label for="inputReson" class="col-sm-3 control-label">申请理由*：</label>
                     <div class="col-sm-6">
-                      <textarea class="form-control" rows="5" wrap="physical" placeholder="工作需要，提交申请，理由xxxx"></textarea>
+                      <input type="text" class="form-control" id="inputReson" placeholder="">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputRef" class="col-sm-3 control-label">OA编号：</label>
+                    <label for="inputRef" class="col-sm-3 control-label">OA编号*：</label>
                     <div class="col-sm-6">
                       <input type="text" class="form-control" id="inputRef" placeholder="">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputAttach" class="col-sm-3 control-label">附件：</label>
+                    <label for="inputAttach" class="col-sm-3 control-label">OA审批附件：</label>
                     <div class="col-sm-6">
                       <input type="text" class="form-control" id="inputAttach" placeholder="">
                     </div>
-                    <div class="col-sm-1 btn_upload">
-                        <input type="file" class="upload" >上传
-                    </div>
                 </div>
-
-                <p class=" text-center">**上传OA编号并提交OA审批结果至附件后才可以提交**</p>
                 <div class="btn_box text-center">
-                    <button class="manage_btn"> 保存 <span class="num_icon">1</span></button>
-                    <button class="manage_btn"> 导出 <span class="num_icon">4</span></button>
-                    <button class="manage_btn"> 提交 <span class="num_icon">3</span></button>
-                    <button class="manage_btn"> 关闭 <span class="num_icon">2</span></button>
+                    <button class="manage_btn"> 关闭 <span class="num_icon">1</span></button>
                 </div>
             </form>
         </div>
@@ -149,7 +107,7 @@
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>

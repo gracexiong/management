@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-02-17 09:13:06
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-02-17 16:13:42
+* @Last Modified time: 2017-02-21 10:01:19
 */
 body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { font-family: Microsoft YaHei,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
 html,body,h1,h2,h3,h4,a,b,u,i{
@@ -35,6 +35,19 @@ header h1{
     line-height: 80px;
     position: relative;
 }
+.container h1.tips:after{
+    content:"（说明：功能角色管理仅部门管理员可见）";
+    font-size: 14px;
+    font-weight: normal;
+    color:red;
+    margin-left: 500px;
+
+}
+h1.title_exta{
+    border-bottom:2px solid #bbb;
+    margin-bottom: 20px;
+}
+
 header h1 span{
     position: absolute;
     right:160px;
@@ -110,4 +123,62 @@ header .row h3{
     height:40px;
     border:1px solid #ccc;
     text-align: center;
+    overflow:hidden;
+}
+.wrapper span.color_r{
+    color:red;
+}
+.wrapper input.search,.wrapper option.search{
+    position: relative;
+}
+.wrapper span.search,.wrapper option span.search{
+    position:absolute;
+    right:20px;
+    top:10px;
+}
+.wrapper input.calendar{
+    position: relative;
+}
+.wrapper span.calendar{
+    position: absolute;
+    right:20px;
+    top:10px;
+}
+.wrapper div.top_dis{
+    padding-top: 7px;
+}
+.wrapper .exchange span{
+    line-height: 24px;
+    text-align:center;
+    width:60px;
+    height:24px;
+    border-radius: 3px;
+    border:1px solid #ccc;
+    margin:10px 20px 20px 2px;
+}
+.wrapper div.color_r{
+    color:red;
+}
+.wrapper div.message{
+    width:500px;
+    height:32px;
+    border:1px solid #ccc;
+    font-size: 14px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    padding-left: 4px;
+}
+.wrapper div.color_b{
+    color:#2abfff;
+}
+.wrapper .skip span.skip_icon{
+    width:60px;
+    /* height:26px; */
+    border:1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 26px;
+} 
+.wrapper .skip .num_icon{
+    right:2px;
 }
